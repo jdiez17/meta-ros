@@ -12,4 +12,4 @@ RDEPENDS:${PN} += "\
     ${PYTHON_PN}-colcon-core \
 "
 
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND += "native nativesdk"

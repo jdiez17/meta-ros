@@ -13,4 +13,4 @@ RDEPENDS:${PN} += "\
     ${PYTHON_PN}-setuptools \
 "
 
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND += "native nativesdk"

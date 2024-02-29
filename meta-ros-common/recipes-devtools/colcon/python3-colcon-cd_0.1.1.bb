@@ -17,4 +17,4 @@ FILES:${PN} += "\
     ${datadir}/colcon_cd \
 "
 
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND += "native nativesdk"

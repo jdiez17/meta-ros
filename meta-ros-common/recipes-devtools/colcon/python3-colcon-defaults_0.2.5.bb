@@ -13,4 +13,4 @@ RDEPENDS:${PN} += "\
     ${PYTHON_PN}-pyyaml \
 "
 
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND += "native nativesdk"
