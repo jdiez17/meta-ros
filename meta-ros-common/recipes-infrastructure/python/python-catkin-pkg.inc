@@ -11,6 +11,6 @@ SRC_URI[sha256sum] = "f26d22cc5d8cb54f681f13fec4d06637b4983d493aa054f8e69ba888d6
 inherit pypi
 
 RDEPENDS:${PN} = "${PYTHON_PN}-unixadmin ${PYTHON_PN}-pyparsing ${PYTHON_PN}-dateutil ${PYTHON_PN}-docutils"
-RDEPENDS:${PN}:class-native = ""
+#RDEPENDS:${PN}:class-native = ""
 
 BBCLASSEXTEND = "native nativesdk"
