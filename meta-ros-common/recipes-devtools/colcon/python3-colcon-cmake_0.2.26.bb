@@ -14,4 +14,4 @@ RDEPENDS:${PN} += "\
     ${PYTHON_PN}-colcon-test-result \
 "
 
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND += "native nativesdk"

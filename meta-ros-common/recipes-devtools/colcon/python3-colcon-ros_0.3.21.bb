@@ -17,4 +17,4 @@ RDEPENDS:${PN} += "\
     ${PYTHON_PN}-colcon-recursive-crawl \
 "
 
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND += "native nativesdk"

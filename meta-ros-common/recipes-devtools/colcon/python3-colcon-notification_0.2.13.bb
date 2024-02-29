@@ -13,6 +13,6 @@ RDEPENDS:${PN} += "\
     ${PYTHON_PN}-colcon-core \
 "
 
-BBCLASSEXTEND += "nativesdk"
+BBCLASSEXTEND += "native nativesdk"
 
 FILES:${PN} += "${datadir}/colcon_notification"
