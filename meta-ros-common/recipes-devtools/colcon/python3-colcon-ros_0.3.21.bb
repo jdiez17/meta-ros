@@ -15,6 +15,7 @@ RDEPENDS:${PN} += "\
     ${PYTHON_PN}-colcon-pkg-config \
     ${PYTHON_PN}-colcon-python-setup-py \
     ${PYTHON_PN}-colcon-recursive-crawl \
+    ${PYTHON_PN}-colcon-package-selection \
 "
 
 BBCLASSEXTEND += "native nativesdk"
